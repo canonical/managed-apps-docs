@@ -70,7 +70,7 @@ copyright = "%s CC-BY-SA, %s" % (datetime.date.today().year, author)
 # NOTE: The Open Graph Protocol (OGP) enhances page display in a social graph
 #       and is used by social media platforms; see https://ogp.me/
 
-ogp_site_url = "https://canonical.com/mlops/kubeflow"
+ogp_site_url = "https://ubuntu.com/managed/apps"
 
 
 # Preview name of the documentation website
@@ -84,7 +84,7 @@ ogp_site_name = project
 #
 # TODO: To customise the preview image, update as needed.
 
-ogp_image = "https://assets.ubuntu.com/v1/c91a146e-kubeflow-logo%2520false.png"
+ogp_image = ""
 
 
 # Product favicon; shown in bookmarks, browser tabs, etc.
@@ -113,7 +113,7 @@ html_context = {
     # TODO: If there's no such website,
     #       remove the {{ product_page }} link from the page header template
     #       (usually .sphinx/_templates/header.html; also, see README.rst).
-    "product_page": "canonical.com/mlops/kubeflow",
+    "product_page": "https://ubuntu.com/managed/apps",
     # Product tag image; the orange part of your logo, shown in the page header
     #
     # TODO: To add a tag image, uncomment and update as needed.
@@ -139,7 +139,7 @@ html_context = {
     #
     # NOTE: If set, links for viewing the documentation source files
     #       and creating GitHub issues are added at the bottom of each page.
-    "github_url": "https://github.com/canonical/managed-kubeflow-docs",
+    "github_url": "https://github.com/canonical/managed-apps-docs",
     # Docs branch in the repo; used in links for viewing the source files
     #
     # TODO: To customise the branch, uncomment and update as needed.
@@ -172,7 +172,7 @@ html_context = {
 # - https://git.launchpad.net/example
 #
 html_theme_options = {
- 'source_edit_link': 'https://github.com/canonical/managed-kubeflow-docs',
+ 'source_edit_link': 'https://github.com/canonical/managed-apps-docs',
  }
 
 # Project slug; see https://meta.discourse.org/t/what-is-category-slug/87897
@@ -188,7 +188,7 @@ html_theme_options = {
 
 # Use RTD canonical URL to ensure duplicate pages have a specific canonical URL
 
-html_baseurl = 'https://documentation.ubuntu.com/managed-kubeflow/'
+html_baseurl = 'https://documentation.ubuntu.com/managed-apps/'
 # sphinx-sitemap uses html_baseurl to generate the full URL for each page:
 
 sitemap_url_scheme = '{link}'
@@ -375,13 +375,3 @@ if "discourse_prefix" not in html_context and "discourse" in html_context:
 if os.path.exists('./reuse/substitutions.yaml'):
     with open('./reuse/substitutions.yaml', 'r') as fd:
         myst_substitutions = yaml.safe_load(fd.read())
-
-# Add configuration for intersphinx mapping
-
-#intersphinx_mapping = {
-#    'all-clouds': ('https://documentation.ubuntu.com/managed-kubeflow/', None),
-#    'aws': ('https://documentation.ubuntu.com/managed-kubeflow-aws/', None),
-#    'azure': ('https://documentation.ubuntu.com/managed-kubeflow-azure/', None),
-#    'gcp': ('https://documentation.ubuntu.com/managed-kubeflow-gcp/', None),
-#    'on-prem': ('https://documentation.ubuntu.com/managed-kubeflow-on-prem/', None),
-#}
