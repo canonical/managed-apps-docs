@@ -7,3 +7,4 @@ These guides describe some risk mitigation strategies that might be helpful in m
    :maxdepth: 1
 
    Enable Microsoft providers <enable-microsoft-providers>
+   Configure quotas <configure-quotas>
