@@ -124,7 +124,7 @@ html_context = {
     #
     # NOTE: If set, adding ':discourse: 123' to an .rst file
     #       will add a link to Discourse topic 123 at the bottom of the page.
-    "discourse": "",
+    "discourse": "https://discourse.charmhub.io",
     # Your Mattermost channel URL
     #
     # TODO: Change to your Mattermost channel URL or leave empty.
@@ -139,7 +139,7 @@ html_context = {
     #
     # NOTE: If set, links for viewing the documentation source files
     #       and creating GitHub issues are added at the bottom of each page.
-    "github_url": "https://github.com/canonical/managed-apps-docs",
+    "github_url": "",
     # Docs branch in the repo; used in links for viewing the source files
     #
     # TODO: To customise the branch, uncomment and update as needed.
@@ -303,15 +303,15 @@ sphinx_tabs_disable_tab_closing = True
 
 exclude_patterns = [
     "doc-cheat-sheet*",
-    "aws/",
-    "gcp/",
-    "openstack/",
-    "azure/general/",
-    "azure/kafka/",
-    "azure/landscape/",
-    "azure/opensearch/",
-    "azure/postgres/",
-    "azure/spark/",
+    "aws",
+    "gcp",
+    "openstack",
+    "azure/general",
+    "azure/kafka",
+    "azure/landscape",
+    "azure/opensearch",
+    "azure/postgres",
+    "azure/spark",
 ]
 
 #  List projects that will share this configuration file
