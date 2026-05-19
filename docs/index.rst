@@ -74,6 +74,7 @@ and harness the power of your applications both on-premises and on all major
 public clouds:
 
 * :doc:`Azure <azure/index>`
+
 .. Disabled entries:
 .. :doc:`AWS <aws/index>`
 .. :doc:`GCP <gcp/index>`

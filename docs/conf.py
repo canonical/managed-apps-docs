@@ -303,6 +303,15 @@ sphinx_tabs_disable_tab_closing = True
 
 exclude_patterns = [
     "doc-cheat-sheet*",
+    "aws/",
+    "gcp/",
+    "openstack/",
+    "azure/general/",
+    "azure/kafka/",
+    "azure/landscape/",
+    "azure/opensearch/",
+    "azure/postgres/",
+    "azure/spark/",
 ]
 
 #  List projects that will share this configuration file
