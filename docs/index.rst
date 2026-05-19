@@ -74,9 +74,10 @@ and harness the power of your applications both on-premises and on all major
 public clouds:
 
 * :doc:`Azure <azure/index>`
-* :doc:`AWS <aws/index>`
-* :doc:`GCP <gcp/index>`
-* :doc:`OpenStack <openstack/index>`
+.. Disabled entries:
+.. :doc:`AWS <aws/index>`
+.. :doc:`GCP <gcp/index>`
+.. :doc:`OpenStack <openstack/index>`
 
 Service options
 ---------------
@@ -96,6 +97,8 @@ via video call for high-severity situations.
    :maxdepth: 4
 
    Azure <azure/index>
-   AWS <aws/index>
-   GCP <gcp/index>
-   OpenStack <openstack/index>
+..
+.. Disabled entries:
+..    AWS <aws/index>
+..    GCP <gcp/index>
+..    OpenStack <openstack/index>
