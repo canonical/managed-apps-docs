@@ -64,4 +64,4 @@ This guide describes how to register your `Microsoft.Capacity`, `Microsoft.Stora
 .. image:: ./enable-microsoft-providers-images/08-registered-status-2.png
    :align: center
 
-16. Once all providers are registered, you need to restart your setup. The easiest way is to close the setup tab in your browser and restart it from the `Azure Marketplace <https://portal.azure.com/#create/canonical.managed-kubeflowkubeflow-metered>`_.
+16. Once all providers are registered, you need to restart your setup. The easiest way is to close the setup tab in your browser and restart it from the `Azure Marketplace <https://portal.azure.com/#create/canonical.managed-kubeflowself-service>`_.
