@@ -35,7 +35,7 @@ Before starting, ensure you have:
 Access Azure Marketplace
 -------------------------
 
-Visit `Azure Marketplace <https://portal.azure.com/#create/canonical-test.managed-kubeflow-previewkubeflow-metered>`_ to find Canonical's Managed Kubeflow offering.
+Visit `Azure Marketplace <https://portal.azure.com/#create/canonical.managed-kubeflowself-service>`_ to find Canonical's Managed Kubeflow offering.
 
 You will find all the information about the application, available plans and pricing, reviews, and more.
 
